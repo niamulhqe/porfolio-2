@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+body{
+    background-image: url("../media/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+}
+.main_info_box{
+    float: left;
+    background: rgba( 0, 0, 0, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    border-radius: 25px;
+    margin-top: 3%;
+    margin-left: 1%;
+    padding: 10px;
+    height: 600px;
+    width: 400px;
+}
+.main_info_box h1{
+    font-family: 'Poppins', sans-serif;
+}
+.main_info_box p{
+    font-family: 'Fira Code', monospace;
+}
+.avatar_main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.note{
+    font-size: 12px;
+    font-family: 'Fira Code', monospace;
+}
+.edu_info_box{
+    float: left;
+    margin-left: 3%;
+    background: rgba( 0, 0, 0, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    padding: 15px;
+    margin-top: 3%;
+    height: 590px;
+    width: 400px;
+    
+}
+.edu_info_box h1{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.edu_info_box p{
+    font-size: 15px;
+    font-family: 'Fira Code', monospace;
+}
+.foot_note_1{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+}
+.contact_social_box{
+    float: left;
+    margin-left: 3%;
+    background: rgba( 0, 0, 0, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    padding: 15px;
+    margin-top: 3%;
+    height: 590px;
+    width: 400px;
+}
+.contact_social_box h1{
+    font-family: 'Poppins', sans-serif;
+}
+.mail_box_form{
+    font-family: 'Fira Code', monospace;
+    width: 80%;
+    /* border: 1px solid #ccc; */
+    background: rgba( 255, 255, 255, 0.5 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  resize: vertical;
+  padding: 12px;
+  caret-color: rgb(223, 220, 220);
+  transition: .9s;
+}
+.mail_box_form:focus{
+    outline: none;
+    transition: .9s;
+}
+.contact_form{
+    caret-color: rgb(223, 220, 220);
+    margin-top: 3%;
+    resize: none;
+    padding: 12px;
+    font-family: 'Fira Code', monospace;
+    width: 90%;
+    /* border: 1px solid #ccc; */
+    background: rgba( 255, 255, 255, 0.5 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .9s;
+}
+.contact_form:focus{
+    outline: none;
+    transition: .9s;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+, MS Edge */
+    color: black;
+    opacity: .4; 
+}
+.submit{
+    font-family: 'Fira Code', monospace;
+    color: white; 
+    opacity: 0.5;
+    margin-top: 3%;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: rgba( 255, 255, 255, 0.5 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .9s;
+}
+.submit:hover{
+    opacity: 1;
+    transition: .9s;
+}

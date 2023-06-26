@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>niamulhqe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <section class="main_info_box">
+            <img src="media/avatar_main.jpg" class="avatar_main" width="50%">
+            <h1>Niamul Haque <span class="note">(@niamulhqe)</span></h1>
+            <p>Student @ <i>SOS Hermann Gmeiner College Dhaka, Dhaka, Bangladesh.</i></p>
+            <p>Web Developer @ <i>Front-End</i></p>
+            <p>Developer @ <i>Discord API</i></p>
+            <p>Former Front-End trainee @ <i>Astral Corp Discord</i></p>
+        </section>
+        <section class="edu_info_box">
+            <h1>Educational Qualifications</h1>
+            <p>Junior School @ <i>SOS Hermann Gmeiner College Dhaka (2020-2022)</i></p>
+            <p>Secondary School @ <i>SOS Hermann Gmeiner College Dhaka (2023-present)</i></p>
+            <div class="foot_note_1"><i>N.B. - In Bangladesh, educational institutions offering higher secondary (11th–12th grade) education are known as colleges.</i></div>
+            <h1>Extracurricular</h1>
+            <p>Executive Member <br> @ <i>Hermann Gmeiner Mathematics Club</i></p>
+            <p>Executive Member <br> @ <i>Hermann Gmeiner Debating Club</i></p>
+            <p>General Debater (Bangla) <br> @ <i>Hermann Gmeiner Debating Club</i></p>
+        </section>
+        <section class="contact_social_box">
+            <h1>Contact</h1>
+            <form onsubmit="sendContact(event)">
+                <input oninvalid="this.setCustomValidity('indentify yourself, mr no-email')" oninput="this.setCustomValidity('')" id="emailInput" type="email" class="mail_box_form" placeholder="email (i.e. john@hotmail.com)" required>
+                <textarea oninvalid="this.setCustomValidity('No story, no chit-chat!')" oninput="this.setCustomValidity('')" id="messageInput" class="contact_form" maxlength="300" placeholder="Tell me your story in 300 words." style="height:120px" required></textarea>
+                <input type="submit" class="submit" value="↪">
+            </form>
+        </section>
+        <script src="script/script.js" async defer></script>
+    </body>
+</html>
